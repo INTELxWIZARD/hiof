@@ -134,7 +134,7 @@ class _RightContainerState extends State<RightContainer> {
                 // Country and State Dropdowns
                 _buildDropdownTextFieldsRow(
                   'Country',
-                  ['USA', 'Canada', 'Mexico'],
+                  ['india', 'Canada', 'Mexico'],
                   'State',
                   ['California', 'Texas', 'New York'],
                   _selectedCountry,
@@ -144,9 +144,9 @@ class _RightContainerState extends State<RightContainer> {
                 // District and City Dropdowns
                 _buildDropdownTextFieldsRow1(
                   'District',
-                  ['District 1', 'District 2', 'District 3'],
+                  ['Ernakulam', 'Thrissur', 'Alappuzha'],
                   'City',
-                  ['City A', 'City B', 'City C'],
+                  ['Chengannur', 'City B', 'City C'],
                   _selectedDistrict,
                   _selectedCity,
                   isSmallScreen,
